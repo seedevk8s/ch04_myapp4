@@ -20,7 +20,7 @@ import AsyncComponent from './components/AsyncComponent.vue';
 
 export default {
   components: {
-    BaseComponent,
+    BaseComponent,    // 여기서 등록해야 <BaseComponent /> 사용 가능
     ProviderComponent,
     InjectedComponent,
     DynamicComponent,
